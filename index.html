@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>budiepquoctue_cyber</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h3>Thêm số vào mảng</h3>
+      <input class="form-control w-25" id="nhapSo_1" />
+      <br />
+      <button class="btn btn-success" id="btnNhapSo">Thêm Số</button>
+      <br />
+      <br />
+      <div class="alert alert-primary">
+        <div>Cho mảng: <span id="arrNumber"> [] </span></div>
+      </div>
+      <hr />
+      <h3>Bài tập 1: Tổng số dương</h3>
+      <button class="btn btn-success" id="btnTinhTong">Tính Tổng</button>
+      <br /><br />
+      <div class="alert alert-primary" id="ketQua_b1"></div>
+      <hr />
+      <h3>Bài tập 2: Đếm số dương</h3>
+      <button class="btn btn-success" id="btnDemSo">Đếm số</button>
+      <br /><br />
+      <div class="alert alert-primary" id="ketQua_b2"></div>
+      <hr />
+      <h3>Bài tập 3: Tìm số nhỏ nhất</h3>
+      <button class="btn btn-success" id="btnNhoNhat">Tìm số nhỏ nhất</button>
+      <br /><br />
+      <div class="alert alert-primary" id="ketQua_b3"></div>
+      <hr />
+      <h3>Bài tập 4: Tìm số dương nhỏ nhất</h3>
+      <button class="btn btn-success" id="btnSoMin">
+        Tìm số dương nhỏ nhất
+      </button>
+      <br /><br />
+      <div class="alert alert-primary" id="ketQua_b4"></div>
+      <hr />
+      <h3>Bài tập 5: Tìm số chắn cuối cùng</h3>
+      <button class="btn btn-success" id="btnSoChan">
+        Tìm số chẵn cuối cùng
+      </button>
+      <br /><br />
+      <div class="alert alert-primary" id="ketQua_b5"></div>
+      <hr />
+      <h3>Bài tập 6: Đổi vị trí 2 giá trị trong mảng</h3>
+      <input
+        type="number"
+        class="form-control w-25 mt-2"
+        id="viTri1"
+        placeholder="nhập vị trí 1"
+      />
+      <input
+        type="number"
+        class="form-control w-25 mt-2"
+        id="viTri2"
+        placeholder="nhập vị trí 2"
+      />
+      <button id="btnDoiCho" class="btn btn-success mt-2">Đổi chỗ</button>
+      <div class="alert alert-success mt-2" id="ketQua_b6"></div>
+      <hr />
+      <h3>Bài tập 7: Sắp xếp tăng dần</h3>
+      <button class="btn btn-success" id="btnSapXep">Sắp xếp</button>
+      <br /><br />
+      <div class="alert alert-primary" id="ketQua_b7"></div>
+      <hr />
+      <h3>Bài tập 8: Tìm số nguyên tố đầu tiên</h3>
+      <button class="btn btn-success" id="btnSoNguyenTo">
+        Tìm số nguyên tố đầu tiên
+      </button>
+      <br /><br />
+      <div class="alert alert-primary" id="ketQua_b8"></div>
+      <hr />
+      <h3>Bài tập 9: Đếm số nguyên</h3>
+      <input type="number" class="form-control w-25 mt-2" id="themSo1" />
+      <button id="btnNhapSo1" class="btn btn-success mt-2">Nhập thêm số</button>
+      <div class="alert alert-primary mt-2" id="ketQua_b91"></div>
+      <button id="btnDemSoNguyen" class="btn btn-success mt-2">
+        Đếm số nguyên
+      </button>
+      <div class="alert alert-primary mt-2" id="ketQua_b9"></div>
+      <hr />
+      <h3>Bài tập 10: So sánh số âm với số dương</h3>
+      <button class="btn btn-success" id="btnSoSanh">
+        So sánh số âm với số dương
+      </button>
+      <br /><br />
+      <div class="alert alert-primary" id="ketQua_b10"></div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- my js
+     -->
+    <script src="./index.js"></script>
+  </body>
+</html>
